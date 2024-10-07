@@ -22,10 +22,14 @@ let loading = false
 const onSubmit = async () => {
   loading = true
   output = await retriveData(input)
-  // let u = new SpeechSynthesisUtterance(output)
-  // let voices = speechSynthesis.getVoices()[0]
-  // u.voice = voices
-  // speechSynthesis.speak(u)
+  let u = new SpeechSynthesisUtterance(output)
+  let voices = speechSynthesis.getVoices()
+  console.log({voices})
+  console.log("7",voices[7])
+  u.voice = voices[7]
+  u.pitch = 1
+  u.rate = 0.8
+  speechSynthesis.speak(u)
   loading = false
 }
 

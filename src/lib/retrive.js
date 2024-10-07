@@ -37,8 +37,9 @@ async function generateChatResponse(context, query) {
     //     console.log("This question is out of the context provided, please ask Gokul.")
     //     // return "This question is out of the context provided, please ask Gokul."
     // }
-    const response = await client.chat.complete({
-        model: 'open-mistral-nemo',
+    const response = await ollama.chat({
+        // model: 'open-mistral-nemo',
+        model:'mistral',
         messages: [
         {
             "role": "system",
