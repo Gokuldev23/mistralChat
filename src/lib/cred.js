@@ -1,0 +1,3 @@
+export const apiKey = 'CERuRILQjw6C6AeXeul7wiyOFV9SkQMh';
+export let supabaseUrl = 'https://redfcdnymxtckgyyrlyt.supabase.co'
+export let supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJlZGZjZG55bXh0Y2tneXlybHl0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjc5MzAxNTQsImV4cCI6MjA0MzUwNjE1NH0.xCLK4MM83uRkrg39q66qrGbBANn8GOT5IsDMUIQ3TpY'
